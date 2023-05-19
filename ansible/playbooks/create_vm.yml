@@ -10,9 +10,9 @@
     libvirt_base_directory: "{{ libvirt_directory }}/base"
     libvirt_boot_directory: "{{ libvirt_directory }}/boot"
 
-    fedora_cloud_image_name: "Fedora-Cloud-Base-35-1.2.x86_64.qcow2"
+    fedora_cloud_image_name: "Fedora-Cloud-Base-38-1.6.x86_64.qcow2"
     fedora_cloud_image_url: "https://download.fedoraproject.org/pub/fedora/\
-                              linux/releases/35/Cloud/x86_64/images/\
+                              linux/releases/38/Cloud/x86_64/images/\
                               {{ fedora_cloud_image_name }}"
 
     vm_image: "{{ fedora_cloud_image_name }}"
