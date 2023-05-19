@@ -62,6 +62,7 @@
           - "tmux"
           - "wget"
           - "vim"
+          - "genisoimage"
         state: "present"
       become: true
 
