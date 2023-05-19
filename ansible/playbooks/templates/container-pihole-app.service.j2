@@ -28,7 +28,7 @@ ExecStart=/usr/bin/podman run \
 	--label "io.containers.autoupdate=registry" \
 	--volume pihole-app-conf:/etc/pihole/:Z \
 	--volume pihole-app-dns:/etc/dnsmasq.d/:Z \
-	--network=pihole \
+	--network=host \
 	--env "WEBPASSWORD={{ pihole_admin_pass }}" \
 	--env "DNSMASQ_LISTENING=all" \
 	--name=pihole-app \
